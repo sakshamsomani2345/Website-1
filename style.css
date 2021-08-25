@@ -335,7 +335,7 @@ font-weight: 800;
   header .navigation{
     display: none;
   }
-  header .navigation .active{
+  header .navigation.active{
     width:100%;
     height: calc(100%-68px);
     position: fixed;
@@ -365,7 +365,7 @@ header .navigation li a{
     background-position: center;
     cursor: pointer;
   }
-  .menuToggle .active{
+  .menuToggle.active{
     background: url(close.png);
     background-size: 25px;
     background-repeat: no-repeat;
